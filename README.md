@@ -81,7 +81,10 @@ class Change implements IChange, IChangeMove {
 
 
 ## 보충 설명
-- Code Review에서는 Code에 대한 내용을 보충설명에서는 해당 코드에 있는 개념들을 정리
+- 상속은 다중으로 할수 없다.
+- 인터페이스는 일종의 협업을 위한 설계도이다.
+- 클래스명, 메소드명, 변수명은 협업 및 유지보수 관점에서 신중하게 정의해야한다.
+- int를 String으로 형변환 할때 간단하게 [변수명+""]로 할 수 있다.
 - 추후에 자바 개념을 따로 정리하는 repository를 만들 예정[진행예정- 해당 repository url]
 
 ## TODO
@@ -89,9 +92,7 @@ class Change implements IChange, IChangeMove {
 - 상속관련 특징, 사용예제 등을 분석하는 시간필요함.(ex- 다중상속이 안되는 특징같은 것)
 - method overriding, method overloading 개념 확실히 구분해서 정리하기
 - @ -> annotation 개념 정리하기
-- 객체 지향 개념 정리하기
 - 인터페이스 개념 정리하기
-
 
 ## Retrospect
 
