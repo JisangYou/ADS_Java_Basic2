@@ -3,7 +3,7 @@
 ## 수업 내용
 - 조건문, 배열, 연산자, method, interface 기본적인 문법 및 사용방법
 
-## 코드리뷰
+## Code Review
 
 1. 향상된 for문
 
@@ -40,7 +40,8 @@ public class NewChange extends Change {
 }
 
 ```
-- 상속예제 코드이다. extends와 @Override를 통해 자식 클래스가 부모클래스의 기능을 사용한다.
+- 상속예제 code
+- extends와 @Override를 통해 자식 클래스가 부모클래스의 기능을 사용한다.
 
 3. Interface
 
@@ -75,11 +76,12 @@ class Change implements IChange, IChangeMove {
 
 }
 ```
-- 인터페이스 예제 코드이다. 
+- 인터페이스 예제 code. 
 - public interface xxx 로 만들고, 이를 구현하는 클래스에서는 implements를 통해서 해당 인터페이스를 사용할 수 있다. 
 
 
-## 보충설명
+## 보충 설명
+- Code Review에서는 Code에 대한 내용을 보충설명에서는 해당 코드에 있는 개념들을 정리
 - 추후에 자바 개념을 따로 정리하는 repository를 만들 예정[진행예정- 해당 repository url]
 
 ## TODO
