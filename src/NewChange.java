@@ -6,17 +6,17 @@ public class NewChange extends Change {
 		
 	}
 	
-//	@Override
-//	public void calc(int pay, int buy) {
-//		// TODO Auto-generated method stub
-//		super.calc(pay, buy);
-//	}
-//
-//	@Override
-//	public void print(String flag, int count) {
-//		// TODO Auto-generated method stub
-//		super.print(flag, count);
-//	}
+	@Override
+	public void calc(int pay, int buy) {
+		// TODO Auto-generated method stub
+		super.calc(pay, buy);
+	}
+
+	@Override
+	public void print(String flag, int count) {
+		// TODO Auto-generated method stub
+		super.print(flag, count);
+	}
 
 	
 }
